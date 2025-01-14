@@ -1,3 +1,28 @@
+body { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f0f0f0; 
+    margin: 0; 
+    font-family: Arial, sans-serif;
+}
+
 #canvas_jeu{
     border : 1px solid #000000;
+}
+
+
+#boutonJouer{
+    font-size: 125px;
+    border-radius: 30px;
+    padding: 20px 40px;
+}
+
+#boutonJouer:hover{
+    background-color: cyan;
+}
+
+#game{
+    display: none;
 }

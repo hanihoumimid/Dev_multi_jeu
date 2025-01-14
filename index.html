@@ -7,9 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Jeu codé en python avec Flask</h1>
-    <div id="timer">Temps restant</div>
-    <div id="score">Score</div>
-    <canvas id="canvas_jeu" width="800" height="600"></canvas>
+    <div id="bouton_contenair">
+        <button id="boutonJouer">
+            Jouer
+        </button>
+    </div>
+    <div id="game">
+        <div id="timer">Temps restant</div>
+        <div id="score">Score</div>
+        <canvas id="canvas_jeu" width="800" height="600"></canvas>
+    </div>
+
+    <script>
+        document.addEventListener('click', function() {
+            document.getElementById("bouton_contenair").style.display = "none";
+            document.getElementById("game").style.display = "block";
+        })
+    </script>
 </body>
 </html>
