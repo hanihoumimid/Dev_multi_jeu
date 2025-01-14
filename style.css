@@ -9,14 +9,18 @@ body {
 }
 
 #canvas_jeu{
-    border : 1px solid #000000;
+    border: 1px solid #000000;
+    width: 98%; 
+    max-width: 800px;
+    margin: 0px 5px;
+    height: auto;
+    background-color: wheat;
 }
 
-
 #boutonJouer{
-    font-size: 125px;
+    font-size: 7.5rem;
     border-radius: 30px;
-    padding: 20px 40px;
+    padding: 1.25rem 2.5rem; 
 }
 
 #boutonJouer:hover{
@@ -25,4 +29,27 @@ body {
 
 #game{
     display: none;
+    width: 100%;
+    max-width: 800px; 
+}
+
+
+@media (max-width: 600px) {
+    #boutonJouer {
+        font-size: 5rem; 
+        padding: 10px 20px; 
+    }
+
+    #canvas_jeu {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    #canvas_jeu {
+        max-width: 1200px;
+        height: auto;
+    }
 }
