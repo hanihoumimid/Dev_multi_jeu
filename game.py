@@ -8,11 +8,10 @@ WINDOW_WIDTH, WINDOW_HEIGHT = 800, 600
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Jeu de l'aligot")
 
-# Couleurs
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 
-# Chargement des images
+
 img_path = "img"
 aligot_img = pygame.image.load(os.path.join(img_path, "aligot.png"))
 fraise_img = pygame.image.load(os.path.join(img_path, "fraise.png"))
