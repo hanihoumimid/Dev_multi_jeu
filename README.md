@@ -1,0 +1,1 @@
+Voici la consigne : "Le chef d'œuvre est une réalisation graphique (plus précisément, un programme qui fabrique des réalisations graphiques). Il doit être personnel. Il doit faire appel à des connaissances acquises au cours du module"
